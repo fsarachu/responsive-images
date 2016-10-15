@@ -7,21 +7,27 @@ module.exports = function (grunt) {
           engine: 'im',
           sizes: [{
             name: 'small',
-            width: '30%',
-            suffix: '_small',
-            quality: 20
+            width: 480,
+            quality: 50
+          }, {
+            name: 'medium',
+            width: 720,
+            quality: 50
           }, {
             name: 'large',
-            width: '50%',
-            suffix: '_large',
-            quality: 40
+            width: 1440,
+            quality: 60
+          }, {
+            name: 'xlarge',
+            width: 2880,
+            quality: 70
           }]
         },
         files: [{
           expand: true,
-          src: ['*.{gif,jpg,png}'],
-          cwd: 'images/',
-          dest: 'images/'
+          cwd: 'src/images/',
+          src: ['**/*.{gif,jpg,jpeg,png}'],
+          dest: 'dist/images/'
         }]
       }
     }
