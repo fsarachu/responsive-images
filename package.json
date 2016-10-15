@@ -1,0 +1,19 @@
+{
+  "name": "responsive-images",
+  "version": "0.0.1",
+  "description": "Project for Udacity's \"Responsive Images\" course",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsarachu/responsive-images.git"
+  },
+  "author": "Franco Sarachu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsarachu/responsive-images/issues"
+  },
+  "homepage": "https://github.com/fsarachu/responsive-images#readme"
+}
