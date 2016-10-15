@@ -16,7 +16,7 @@
     "url": "https://github.com/fsarachu/responsive-images/issues"
   },
   "homepage": "https://github.com/fsarachu/responsive-images#readme",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-responsive-images": "^0.1.9"
   }
