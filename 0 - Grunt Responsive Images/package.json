@@ -1,7 +1,7 @@
 {
-  "name": "responsive-images",
+  "name": "0 - Grunt Responsive Images",
   "version": "0.0.1",
-  "description": "Project for Udacity's \"Responsive Images\" course",
+  "description": "First project for Udacity's \"Responsive Images\" course",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
