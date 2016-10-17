@@ -1,5 +1,5 @@
 {
-  "name": "0 - Grunt Responsive Images",
+  "name": "0-grunt-responsive-images",
   "version": "0.0.1",
   "description": "First project for Udacity's \"Responsive Images\" course",
   "main": "Gruntfile.js",
