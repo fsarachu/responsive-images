@@ -57,6 +57,7 @@ footer {
   margin: 0;
   padding: 8px;
   font-size: 2em;
+  transition: color .15s ease-in;
 }
 
 .social-buttons .fa-github:hover {
