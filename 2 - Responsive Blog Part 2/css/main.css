@@ -51,7 +51,9 @@ footer {
 }
 
 .social-buttons a {
-  display: inline-block;
+  text-decoration: none;
   color: #414141;
-  font-size: 3em;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 2em;
 }
