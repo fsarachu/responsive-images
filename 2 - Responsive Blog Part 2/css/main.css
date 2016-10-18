@@ -54,7 +54,8 @@ footer {
   text-decoration: none;
   color: #414141;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0;
+  padding: 8px;
   font-size: 2em;
 }
 
