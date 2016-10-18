@@ -13,11 +13,28 @@ module.exports = function (grunt) {
       dev: {
         options: {
           engine: 'im',
-          sizes: [{
-            width: 1600,
-            suffix: '_large-2x',
-            quality: 30
-          }]
+          sizes: [
+            {
+              width: 320,
+              quality: 60
+            },
+            {
+              width: 720,
+              quality: 60
+            },
+            {
+              width: 1024,
+              quality: 60
+            },
+            {
+              width: 1600,
+              quality: 70
+            },
+            {
+              width: 2800,
+              quality: 70
+            }
+          ]
         },
 
         /*
@@ -47,25 +64,12 @@ module.exports = function (grunt) {
           create: ['images']
         }
       }
-    },
-
-    /* Copy the "fixed" images that don't go through processing into the images/directory */
-    copy: {
-      dev: {
-        files: [{
-          expand: true,
-          src: 'fixed/*.{gif,jpg,png}',
-          cwd: 'images_src/',
-          dest: 'images/'
-        }]
-      }
     }
   });
 
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
 
 };
