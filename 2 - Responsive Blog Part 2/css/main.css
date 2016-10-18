@@ -36,3 +36,22 @@ img {
   padding: 0;
   max-width: 100%;
 }
+
+footer {
+  width: 100%;
+  margin: 2em 0 0;
+  padding: 2em 0;
+  background: #e1e1e1;
+}
+
+.social-buttons {
+  width: 50em;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.social-buttons a {
+  display: inline-block;
+  color: #414141;
+  font-size: 3em;
+}
