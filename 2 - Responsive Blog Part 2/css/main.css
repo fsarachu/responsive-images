@@ -39,9 +39,9 @@ img {
 
 footer {
   width: 100%;
-  margin: 2em 0 0;
-  padding: 2em 0;
-  background: #e1e1e1;
+  margin: 5em 0 0;
+  padding: 2em 0 3em;
+  background: #cfcfcf;
 }
 
 .social-buttons {
@@ -52,7 +52,7 @@ footer {
 
 .social-buttons a {
   text-decoration: none;
-  color: #414141;
+  color: #a0a0a0;
   display: inline-block;
   margin: 0;
   padding: 8px;
