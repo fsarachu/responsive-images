@@ -1,10 +1,16 @@
 {
   "name": "1-reponsive-blog",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/udacity/responsive-images.git"
+    "url": "git+https://github.com/fsarachu/responsive-images.git"
   },
+  "author": "Franco Sarachu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsarachu/responsive-images/issues"
+  },
+  "homepage": "https://github.com/fsarachu/responsive-images#readme",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.10.0",
@@ -12,9 +18,7 @@
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-clean": "~0.6.0",
     "grunt-mkdir": "~0.1.2",
-    "grunt-contrib-copy": "~0.8.0"
-  },
-  "dependencies": {
+    "grunt-contrib-copy": "~0.8.0",
     "grunt-responsive-images": "^0.1.6"
   }
 }
