@@ -57,3 +57,23 @@ footer {
   margin: 0 5px;
   font-size: 2em;
 }
+
+.social-buttons .fa-github:hover {
+  color: #333333;
+}
+
+.social-buttons .fa-facebook:hover {
+  color: #3b5998;
+}
+
+.social-buttons .fa-twitter:hover {
+  color: #00aced;
+}
+
+.social-buttons .fa-digg:hover {
+  color: #005be2;
+}
+
+.social-buttons .fa-google-plus:hover {
+  color: #dd4b39;
+}
